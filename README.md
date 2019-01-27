@@ -13,5 +13,8 @@ To properly run the script:
   - open terminal
   - locate and change directory to coop_asmt1 ($ cd coop_asmt1): this contains the shell script (txt_script.sh)
   - run the command: $ ./txt_script.sh
+  - IF SCRIPT DOES NOT HAVE PERMISSION TO RUN:
+    - run the command: $ chmod +x txt_script.sh
+    - then try the command again: $ ./txt_script.sh
  
 Open the "textfiles" folder located in the "coop_asmt1" folder, and the changed files should be present while the empty files removed.
