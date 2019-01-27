@@ -1,0 +1,4 @@
+My favorite editor is Sublime Text.
+2 reasons why:
+ - Sublime Text recognizes the syntax for many different programming languages (through file extension, e.g test.py or live.sql)
+ - Sublime Text is very straight forward and simple to start and use (can just open and start coding)
