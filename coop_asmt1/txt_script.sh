@@ -7,13 +7,13 @@ cd $directory
 #parsing through each .txt file in current directory
 for file in *.txt; do
 
-	line_count=$(<"$file" wc -l) #stores only file line count (using input redirection)
+	line_count=$(cat $file | wc -l) #stores only file line count 
 	file_name=$(basename $file) #stores file name+extension
 
 echo "$file_name has $line_count lines"
 	#conditional checks
 	if [ $line_count -eq 0 ]; then
-		echo "Deleting ...\n"
+		echo "Deleting $file_name ..."
 		rm $file
 	elif [ $line_count -lt 10 ]; then
 		echo "Renaming $file_name to short_$file_name ..."
